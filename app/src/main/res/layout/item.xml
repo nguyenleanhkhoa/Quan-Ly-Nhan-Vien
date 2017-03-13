@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtma"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="75dp"
+        android:text="stt"
+        android:layout_weight="1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="30dp"
+            android:id="@+id/txttennv"
+            android:text="tên nhan viên"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="25dp"
+            android:id="@+id/txtchucvu"
+            android:text="Chức vụ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtluong"
+            android:textSize="20dp"
+            android:text="lương"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
